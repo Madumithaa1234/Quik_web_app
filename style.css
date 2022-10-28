@@ -1,0 +1,27 @@
+body
+{
+    background-color: rgb(25, 216, 25);
+}
+h1
+{
+    color: black;
+    background-color: lightsalmon;
+}
+#show_sketch
+{
+    float: right;
+
+}
+canvas
+{
+    border: 5px solid white;
+    border-radius: 20px;
+    margin-top: 50px;
+    animation-name: example;
+    animation-duration: 4s;
+
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 1px 20px yellow;}
+    to{box-shadow: 1px 1px 1px 20px red;}
+}
